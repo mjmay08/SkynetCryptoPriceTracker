@@ -1,12 +1,12 @@
 {
-  "name": "static-website-template",
+  "name": "skynet-crypto-price-tracker",
   "version": "1.0.1",
-  "description": "template for static website",
-  "author": "Vincent Will <vincent.will@vaitrade.de>",
+  "description": "A crypto price tracker hosted on skynet",
+  "author": "Mitchell May",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vincenius/static-website-template"
+    "url": "https://github.com/mjmay08/SkynetCryptoPriceTracker"
   },
   "scripts": {
     "clean": "rimraf dist/*",
@@ -54,7 +54,6 @@
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0",
     "jquery-sparkline": "^2.4.0",
-    "skynet-js": "^4.0.18-beta",
     "tabulator-tables": "^5.0.7"
   }
 }

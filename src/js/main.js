@@ -11,21 +11,6 @@ function loadData() {
     response.json().then((jsonData) => {
       console.log("Done loading data...");
       $('#refresh').removeClass('fa-spin');
-      /*
-      var table = document.getElementById("cryptoTable").getElementsByTagName('tbody')[0];
-      for(let i = 0; i < jsonData.length; i++) {
-        var row = table.insertRow();
-        var rank = row.insertCell(0);
-        var rankText = document.createTextNode(jsonData[i].market_cap_rank);
-        rank.appendChild(rankText);
-        var name = row.insertCell(1);
-        var nameText = document.createTextNode(jsonData[i].name);
-        name.appendChild(nameText);
-        var symbol = row.insertCell(2);
-        var symbolText = document.createTextNode(jsonData[i].symbol);
-        symbol.appendChild(symbolText);
-      }
-      */
       var table = new Tabulator("#cryptoTable2", {
         pagination: 'local',
         paginationSize: 100,
