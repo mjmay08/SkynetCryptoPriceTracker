@@ -1,4 +1,6 @@
 import { TabulatorFull as Tabulator } from "tabulator-tables";
+import { Buttons, Popover } from 'bootstrap';
+import { popper } from '@popperjs/core';
 import '../scss/index.scss';
 
 let currency = "USD";
