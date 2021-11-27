@@ -8,7 +8,7 @@
   </head>
 
   <body style="height: 100vh;">
-    <div style="width: fit-content; margin: auto;">
+    <div style="width: fit-content; margin: auto; height: calc(100% - 35px);">
       <h1 style="height: 50px; text-align: center;">Skynet Crypto Price Tracker</h1>
       <div class="menuBar">
         <div class="dropdown menuItem">
@@ -34,6 +34,14 @@
           <span class="sr-only">Loading...</span>
         </div>
       </div>
+    </div>
+    <div style="height: 35px; margin: auto; width: fit-content;">
+      <button id="skynetDocs" style="height: 35px; vertical-align: top;">
+        <a href="https://siasky.net/docs" target="_blank"><img src="BuiltWithSkynet.png" style="height: 100%;"></a>
+      </button>
+      <button id="github" style="height: 35px;">
+        <a href="https://github.com/mjmay08/SkynetCryptoPriceTracker" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+      </button>
     </div>
     <script src="jquery.min.js"></script>
     <script src="jquery.sparkline.min.js"></script>
